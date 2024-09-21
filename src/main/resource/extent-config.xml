@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+	<configuration>
+	<!-- report time  --> <!-- standard, dark-->
+	<theme>standard</theme>
+	
+	<!-- document encoding  --> <!-- defaults to UFT-8 -->
+	<encoding>UFT-8</encoding>
+	
+	<!-- protocol for script and stylesheets  --> <!-- default to https -->
+	<protocol>https</protocol>
+	
+	<documentTitle>Title - Cucumber Framework Report Document</documentTitle>
+	
+	<reportName>Cucumber Test Report</reportName>
+	
+	<dateFormat>yyyy-MM-dd</dateFormat>
+	
+	<timeFormat>HH:mm:ss</timeFormat>
+	
+	<!-- custom javascript -->
+	<scripts>
+	 <![CDATA[
+	 	$(document).ready(function){
+	 	
+	 	});
+	 	]]>
+	</scripts>
+	
+	<!-- custom style -->
+	 <styles>
+	  <![CDATA[
+	  
+	  ]]>
+	 </styles>
+	</configuration>
+</extentreports>
+	
